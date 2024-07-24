@@ -1,0 +1,111 @@
+/* Genel stil */
+body {
+    font-family: 'Georgia', serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+/* Başlık ve Navigasyon */
+header {
+    background: #1e1e1e;
+    color: #f4f4f4;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2.5rem;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #f4f4f4;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Ana Giriş Bölümü */
+#home {
+    text-align: center;
+    padding: 2rem 1rem;
+    background: #f4f4f4;
+}
+
+#home img {
+    max-width: 100%;
+    height: auto;
+    border: 5px solid #1e1e1e;
+}
+
+#home blockquote {
+    font-style: italic;
+    color: #555;
+    border-left: 5px solid #1e1e1e;
+    padding-left: 10px;
+    margin: 20px 0;
+    font-size: 1.2rem;
+}
+
+/* Biografi ve Eserler */
+section {
+    padding: 2rem 1rem;
+    background: #fff;
+    margin: 2rem 0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+    border-bottom: 2px solid #1e1e1e;
+    padding-bottom: 0.5rem;
+    margin-bottom: 1rem;
+    color: #1e1e1e;
+    font-size: 1.8rem;
+}
+
+section p,
+section ul {
+    margin: 0;
+    font-size: 1.1rem;
+}
+
+section ul {
+    list-style: none;
+    padding: 0;
+}
+
+section ul li {
+    background: #f4f4f4;
+    margin: 10px 0;
+    padding: 10px;
+    border-left: 5px solid #1e1e1e;
+}
+
+/* Altbilgi */
+footer {
+    background: #1e1e1e;
+    color: #f4f4f4;
+    text-align: center;
+    padding: 1rem 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
